@@ -1,0 +1,151 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+  
+  body::-webkit-scrollbar {
+    display: none;
+  }
+:root{
+    --header-bg-color:#181c24;
+    --main-bg-color: #0C3353;
+    --secondary-bg-color: #246FB6;  
+}
+.amazon_logo
+{
+    height: 30px;
+    width: 100px;
+    
+}
+.header_flex_container
+{
+    background-color: var(--header-bg-color);
+    display: flex;
+    align-items: center;
+    height: 65px;
+    justify-content:center;
+    position:sticky;
+
+}
+.address
+{
+    padding-left: 15px;
+}
+.address_text_primary
+{
+    color: white;
+    font-weight: 300;
+}
+.address_text_secondary
+{
+    color: white;
+    font-weight: 600;
+}
+.drop_down_menu
+{
+    text-align: center;
+    width: 5%;
+    height: 5.4vh;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius:10% ;
+    outline: none;
+    border: none;
+    background-color: #e8e4e4;
+}
+.flex_search_bar
+{
+    display: flex;
+    gap: 0;
+    justify-content: center;
+}
+.search_area
+{
+    width: 50vw;
+    height:5.4vh;
+    border: none;
+    outline: none;
+}
+.search_area::placeholder
+{
+    font-size:17px;
+}
+.search_btn
+{
+    width: 2.7vw;
+    height:5.4vh;
+    background-color: #ffbc6c;
+    border-top-right-radius: 10%;
+    border-bottom-right-radius:10% ;
+    outline: none;
+    border: none;
+}
+.img_indian_flag
+{
+    height: 15px;
+    width: 20px;
+}
+.indian_flag
+{
+    padding-right: 10px;
+    display: flex;
+    gap:3px;
+    align-items: center;
+}
+.language_selection_txt
+{
+    color:white;
+    font-size:16px; 
+    font-weight:600;
+
+}
+.top_right_section
+{
+    padding-right:3px;
+}
+.username_display_greeting
+{
+    color:white;
+    font-size:14px;
+    font-weight: bold;
+}
+.account_list
+{
+    color:white;
+    font-size:16px;
+    font-weight: bold;
+}
+.returns_txt
+{
+    color:white;
+    font-size:14px;
+    font-weight: bold;
+}
+.cart_icon
+{
+    height:38px;
+}
+.item:hover
+{
+    outline:1px solid white;
+}
+.flex_container_menu_items
+{
+    background-color:#282c3c;
+    color:white;
+    font-weight:450;
+    display: flex;
+    justify-content:flex-start;
+    height: 35px;
+    gap:15px;
+    align-items: center;
+}
+.txt:hover
+{
+    outline:1px solid white;
+}
+.img_banner
+{
+    width: 100%;
+}
