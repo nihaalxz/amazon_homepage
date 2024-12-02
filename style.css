@@ -295,3 +295,11 @@ ul{
 {
     color:rgb(142, 141, 141);
 }
+.final_footer
+{
+    text-align: center;
+    background-color:rgb(18,26,35);
+    color: white;
+    padding:20px 0px;
+    font-size:14px;
+}
